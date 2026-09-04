@@ -1,0 +1,22 @@
+# Private credentials: never add a real secret to the public repository.
+.env
+.streamlit/secrets.toml
+
+# Local Python environments and generated files.
+.venv/
+.ai_news_venv_path
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+coverage/
+*.log
+
+# Local-only tools and user documents are deliberately excluded from this cloud package.
+.idea/
+*.docx
+*.pptx
+*.xlsx
+*.pdf
+*.zip
+~$*

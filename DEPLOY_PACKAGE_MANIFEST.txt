@@ -1,0 +1,21 @@
+Public Streamlit deployment package
+
+Included runtime files
+- app.py
+- src/__init__.py
+- src/keyword_extractor.py
+- src/openai_document.py
+- models/news_classifier.joblib
+- requirements.txt
+- .streamlit/config.toml
+- .streamlit/secrets.toml.example
+- .gitignore
+- README.md
+- DEPLOY_TO_STREAMLIT.bat
+- DEPLOY_TO_STREAMLIT.ps1
+
+Explicitly excluded
+- .streamlit/secrets.toml and .env
+- .venv, IDE state, caches, logs and test output
+- Word, PowerPoint, Excel, PDF and ZIP files
+- local Windows installer and launcher scripts

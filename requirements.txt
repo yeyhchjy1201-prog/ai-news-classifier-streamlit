@@ -1,0 +1,10 @@
+# Pinned to the dependency versions that loaded the bundled classifier locally.
+# Keep these versions aligned with the model, or retrain the model before changing them.
+joblib==1.6.0
+numpy==2.5.2
+scikit-learn==1.9.0
+streamlit==1.63.0
+
+# Kept for the optional document-analysis feature. The public first release
+# intentionally has no OPENAI_API_KEY in Cloud Secrets.
+openai==2.54.0

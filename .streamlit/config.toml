@@ -1,0 +1,10 @@
+# Shared Streamlit settings.  This file controls browser behavior, not API keys.
+[server]
+# Browser upload limit in MB.  app.py separately enforces a 20 MiB API limit.
+maxUploadSize = 20
+# Suppress Streamlit's first-run email prompt for this local project.
+showEmailPrompt = false
+
+[browser]
+# Disable anonymous usage-stat collection for the local application.
+gatherUsageStats = false
